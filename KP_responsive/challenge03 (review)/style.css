@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  color: blanchedalmond;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: black;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto 0 15%;
+}
+
+.hero__text {
+  width: 60%;
+}
+.hero p {
+  color: rgba(255, 235, 205, 0.693);
+}
+
+.btn {
+  display: inline-block;
+  background-color: coral;
+  border-radius: 100px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+      background-color: magenta;
+  }
+}
