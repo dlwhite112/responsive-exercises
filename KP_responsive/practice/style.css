@@ -1,0 +1,81 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: chartreuse;
+    height: 33vh;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.col_1{
+    background-color: blueviolet;
+    width: 50%;
+}
+.col_2{
+    background-color: coral;
+    width: 50%;
+}
+.row_a{
+    background-color: thistle;
+    height: 33.3%;
+
+}
+.row_b{
+    height: 33.3%;
+    background-color: wheat;
+}
+.row_c{
+    background-color: yellowgreen;
+    height: 33.3%;
+
+}
+.container .row_1{
+    width: 100%;
+}
+.col_1_row_1{
+    background-color: darkblue;
+    width: 100%;
+}
+.col_2_row_1{
+    background-color: darkgoldenrod;
+    width: 100%
+
+}
+.col_3_row_1{
+    background-color: darkolivegreen;
+    width: 100%
+}
+.container .row_2{
+    width: 100%;
+}
+
+.row_1{
+    display: flex;
+    flex-direction: row;
+}
+
+.row_2{
+    display: flex;
+} 
+
+
+.col_1_row_2{
+    background-color: deeppink;
+    height: 30%;
+
+}
+.col_2_row_2{
+    background-color: orange;
+    height: 30%;
+
+}
+.col_3_row_2{
+    background-color: teal;
+    height: 30%;
+
+}
