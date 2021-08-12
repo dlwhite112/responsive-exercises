@@ -34,8 +34,12 @@
     height: 33.3%;
 
 }
-.container .row_1{
+.container_bottom{
+    /* display: flex;
+    flex-direction: column; */
     width: 100%;
+    background-color: chartreuse;
+    height: 33vh;
 }
 .col_1_row_1{
     background-color: darkblue;
@@ -43,39 +47,38 @@
 }
 .col_2_row_1{
     background-color: darkgoldenrod;
-    width: 100%
-
+    width: 100%;
 }
 .col_3_row_1{
     background-color: darkolivegreen;
-    width: 100%
-}
-.container .row_2{
     width: 100%;
 }
 
 .row_1{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    height: 50%;
 }
 
+
 .row_2{
+    width: 100%;
     display: flex;
+    height: 50%;
 } 
 
 
 .col_1_row_2{
     background-color: deeppink;
-    height: 30%;
-
+    width: 100%;
 }
 .col_2_row_2{
     background-color: orange;
-    height: 30%;
+    width: 100%;
 
 }
 .col_3_row_2{
     background-color: teal;
-    height: 30%;
+    width: 100%;
 
 }
