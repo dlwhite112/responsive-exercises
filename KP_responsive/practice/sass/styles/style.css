@@ -1,0 +1,26 @@
+header, .contact {
+  background: #a2e2e2;
+  height: 100vh;
+}
+
+header button, .contact button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 2rem;
+  color: white;
+  padding: 1rem;
+  background: teal;
+  border: 0px;
+  border-radius: 20px;
+}
+
+header button:hover, .contact button:hover {
+  color: black;
+  background: red;
+}
+
+.contact {
+  background: salmon;
+}
+/*# sourceMappingURL=style.css.map */
